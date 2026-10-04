@@ -19,20 +19,20 @@
 
 ## Repository structure
 
-```
 the-vanishing-subscribers/
 ├── README.md                       ← you are here
 ├── data/
-│   └── sonicwave_subscribers.csv          raw data (never modified)
+│   └── sonicwave_subscribers.csv    raw data (never modified)
 ├── analysis/
-│   ├── churn_analysis.xlsx         Excel pivots for every factor, 2-way pivots, number checks, charts
-│   └── sql_deliverable.sql         SQL: overall churn, segments, top-5 risk segments, daily at-risk list
+│   ├── churn_analysis.xlsx         Excel pivots, number checks, charts
+│   └── sql_deliverable.sql          SQL churn and risk analysis
 ├── dashboard/
-│   ├── SonicWave_Churn_Dashboard.pbix     Power BI dashboard (weekly view for the VP)
-│   └── dashboard_preview.png              screenshot
+│   ├── SonicWave_Churn_Dashboard.pbix
+│   └── dashboard_preview.png
 ├── presentation/
 │   ├── Case_Closed_Deck.pptx
 │   └── Case_Closed_Deck.pdf
+├── Prediction Model/               standalone churn model and prediction app
 └── docs/
     └── methodology.md              how we did it, step by step
 ```
