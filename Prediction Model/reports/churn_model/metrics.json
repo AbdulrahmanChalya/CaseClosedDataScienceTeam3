@@ -1,0 +1,24 @@
+{
+  "model": "Random forest",
+  "sklearn_version": "1.9.1",
+  "random_seed": 42,
+  "threshold": 0.5,
+  "train_rows": 6800,
+  "test_rows": 1700,
+  "test_churn_rate": 0.09705882352941177,
+  "accuracy": 0.92,
+  "precision_churn": 0.5687203791469194,
+  "recall_churn": 0.7272727272727273,
+  "roc_auc": 0.8202467673477445,
+  "always_retain_accuracy": 0.9029411764705882,
+  "confusion_matrix_rows_actual_columns_predicted_0_1": [
+    [
+      1444,
+      91
+    ],
+    [
+      45,
+      120
+    ]
+  ]
+}

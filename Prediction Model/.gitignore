@@ -1,0 +1,5 @@
+# Subscriber-level data stays local; prediction needs only the saved model.
+data/subscribers.csv
+reports/churn_model/test_predictions.csv
+**/__pycache__/
+*.pyc

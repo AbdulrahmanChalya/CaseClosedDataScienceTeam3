@@ -1,0 +1,4 @@
+# Preserve bundled third-party runtime files byte-for-byte.
+runtime/** -text
+*.bat text eol=crlf
+*.joblib binary
